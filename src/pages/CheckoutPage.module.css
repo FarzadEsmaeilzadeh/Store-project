@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    min-height: 1000px;
+}
+
+.container h1 {
+    margin: 0 auto;
+}
+
+.products {
+    width: 100%;
+}
+
+.empty {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    min-height: 1000px;
+}
+
+.empty img {
+    width: 500px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .empty img {
+        width: 325px;
+    }
+}
